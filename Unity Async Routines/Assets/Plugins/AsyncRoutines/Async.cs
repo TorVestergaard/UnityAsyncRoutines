@@ -29,7 +29,7 @@
  * switch the method to run on a thread pool thread, and yield Async.ToGame will
  * return your method to the game thread.
  *
- * This is very useful for the cases where you need to execute heave work, but
+ * This is very useful for the cases where you need to execute heavy work, but
  * you also interact closely with Unity. This ease of switching between threads
  * is of great assistance when creating asynchronous code.
  *
