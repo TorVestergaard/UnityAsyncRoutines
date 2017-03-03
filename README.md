@@ -58,7 +58,7 @@ There are a couple of included examples in the Examples scene in this project.  
 
 This is a simple example of doing work outside of the game loop using Async.  The 'over time' is implemented with a simple call to sleep - which of course you don't want to do in the main game thread.  But you need to be in the game thread to set the color of the gameObject.
 
-Snippet from Example : [FadeColor.cs](Assets/Plugins/AsyncRoutines/Examples/FadeColor.cs)
+Snippet from Example : [FadeColor.cs](Unity%20Async%20Routines/Assets/Plugins/AsyncRoutines/Examples/FadeColor.cs)
 
 ```csharp
 	IEnumerator Fade()
@@ -89,7 +89,7 @@ Snippet from Example : [FadeColor.cs](Assets/Plugins/AsyncRoutines/Examples/Fade
 
 This example uses the .Net WebClient - which blocks on the return of the url to show how Asych allows you to do blocking IO outside of the unity main thread, yet return with results and update game objects with them - easy as can be.
 
-[CallWebService.cs](Assets/Plugins/AsyncRoutines/Examples/CallWebService.cs)
+[CallWebService.cs](Unity%20Async%20Routines/Assets/Plugins/AsyncRoutines/Examples/CallWebService.cs)
 
 ```csharp
 public class CallWebService : MonoBehaviour {
@@ -131,4 +131,4 @@ public class CallWebService : MonoBehaviour {
 
 This is actually a great place to continue your study of Async in depth - just take a look at the test code to see examples of Paralell and some of the other more advanced uses of Async.
 
-[AsyncTests.cs](Assets/Plugins/AsyncRoutines/Tests/AsyncTests.cs)
+[AsyncTests.cs](Unity%20Async%20Routines/Assets/Plugins/AsyncRoutines/Tests/AsyncTests.cs)
